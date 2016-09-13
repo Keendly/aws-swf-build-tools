@@ -30,11 +30,23 @@
         <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.amazonaws</groupId>-->
+            <!--<artifactId>aws-java-sdk-swf-libraries</artifactId>-->
+            <!--<version>[1.10.69,)</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-swf-libraries</artifactId>
-            <version>[1.10.69,)</version>
+            <groupId>com.github.Keendly</groupId>
+            <artifactId>aws-swf-flow-library</artifactId>
+            <version>v0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
