@@ -46,7 +46,7 @@
         <dependency>
             <groupId>com.github.Keendly</groupId>
             <artifactId>aws-swf-flow-library</artifactId>
-            <version>v0.0.2</version>
+            <version>v0.0.3</version>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
